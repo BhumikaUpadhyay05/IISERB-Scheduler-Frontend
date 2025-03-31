@@ -16,7 +16,7 @@ The **Timetable Scheduler** is a web-based application that allows users to crea
 - Users enter their email and password to log in.
 - Provides authentication before accessing other features.
 
-![Login Page](127.0.0.1_5500_login.html.png)
+![Login Page](images/127.0.0.1_5500_login.html.png)
 
 ### `create-timetable.html`
 - Interface to add and modify courses.
