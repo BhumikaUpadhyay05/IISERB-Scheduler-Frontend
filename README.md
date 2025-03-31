@@ -10,7 +10,7 @@ The **Timetable Scheduler** is a web-based application that allows users to crea
 - Landing page with options to **Sign Up** or **Log In**.
 - Buttons to navigate to **Create Timetable** and **View Schedule** pages.
 
-![Landing Page](127.0.0.1_5500_index.html.png)
+![Landing Page](index-html.png)
 
 ### `login.html`
 - Users enter their email and password to log in.
