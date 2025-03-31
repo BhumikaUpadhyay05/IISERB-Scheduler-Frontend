@@ -1,13 +1,13 @@
 # Timetable Scheduler
 
 ## Overview
-The **Timetable Scheduler** is a web-based application that allows users to create and view academic timetables efficiently. Users can sign up, log in, and generate conflict-free timetables.
+The **IISERB Timetable Scheduler** is a web-based application that allows users to create and view academic timetables efficiently. Users can sign up, log in, and generate conflict-free timetables.
 
 ## File Structure
 
 ### `index.html`
 - The main entry point of the application.
-- Landing page with options to **Sign Up** or **Log In**.
+- Landing page with information regarding the website and options to **Sign Up** or **Log In** which on clicking takes the user to login page.
 - Buttons to navigate to **Create Timetable** and **View Schedule** pages.
 
 ![Landing Page](images/index-html.png)
