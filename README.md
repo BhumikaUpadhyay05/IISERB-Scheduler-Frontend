@@ -35,4 +35,27 @@ The **Timetable Scheduler** is a web-based application that allows users to crea
 ## Languages Used
 - HTML
 - CSS (internal)
+  
+## How to Run the Project
+### 1. Clone the Repository
+```bash
+git clone https://github.com/BhumikaUpadhyay05/IISERB-Scheduler-Frontend.git
+```
+
+### 2. Navigate to the Project Folder
+```bash
+cd IISERB-Scheduler-Frontend
+```
+
+### 3. Open `index.html`
+- Right-click on `index.html`.
+- Select **"Open with Live Server"**.
+
+### 4. If Live Server is Not Installed
+- Open **VS Code**.
+- Go to **Extensions** (Ctrl+Shift+X).
+- Search for **"Live Server"** and install it.
+- Right-click `index.html` and select **"Open with Live Server"**.
+
+
 
