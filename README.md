@@ -22,8 +22,8 @@ The **Timetable Scheduler** is a web-based application that allows users to crea
 - Interface to add and modify courses.
 - Inputs for course code(that contains information like department and semester), instructor, and maximum student capacity per department.
 
-![create-timetable Page](127.0.0.1_5500_create-timetable.html(1).png)
-![create-timetable Page](127.0.0.1_5500_create-timetable.html(2).png)
+![create-timetable Page](create-timetable.html(1).png)
+![create-timetable Page](create-timetable.html(2).png)
 
 ### `view-schedule.html`
 - Displays a sample weekly timetable.
