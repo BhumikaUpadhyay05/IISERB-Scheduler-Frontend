@@ -1,4 +1,4 @@
-# Timetable Scheduler
+# IISERB Timetable Scheduler
 
 ## Overview
 The **IISERB Timetable Scheduler** is a web-based application that allows users to create and view academic timetables efficiently. Users can sign up, log in, and generate conflict-free timetables.
