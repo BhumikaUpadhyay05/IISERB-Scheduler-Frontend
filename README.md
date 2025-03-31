@@ -10,7 +10,7 @@ The **Timetable Scheduler** is a web-based application that allows users to crea
 - Landing page with options to **Sign Up** or **Log In**.
 - Buttons to navigate to **Create Timetable** and **View Schedule** pages.
 
-![Landing Page](index-html.png)
+![Landing Page](images/index-html.png)
 
 ### `login.html`
 - Users enter their email and password to log in.
@@ -24,13 +24,13 @@ The **Timetable Scheduler** is a web-based application that allows users to crea
 
 | Add Course | Edit Course |
 |------------|------------|
-| ![Add Course](create-timetable.html(1).png) | ![View Course](create-timetable.html(2).png) |
+| ![Add Course](images/create-timetable.html(1).png) | ![View Course](images/create-timetable.html(2).png) |
 
 
 ### `view-schedule.html`
 - Displays a sample weekly timetable.
 - Showcases how weekly class schedules appear.
-![Login Page](127.0.0.1_5500_view-shcedule.html.png)
+![Login Page](images/127.0.0.1_5500_view-shcedule.html.png)
 
 ## Languages Used
 - HTML
