@@ -28,7 +28,7 @@ The **Timetable Scheduler** is a web-based application that allows users to crea
 ### `view-schedule.html`
 - Displays a sample weekly timetable.
 - Showcases how weekly class schedules appear.
-![Login Page](127.0.0.1_5500_view-schedule.html.png)
+![Login Page](127.0.0.1_5500_view-shcedule.html.png)
 
 ## Languages Used
 - HTML
