@@ -1,12 +1,7 @@
 # Timetable Scheduler
 
 ## Overview
-The **Timetable Scheduler** is a web-based application that allows users to create and view academic timetables efficiently. Users can sign up, log in, and manage course schedules with ease.
-
-## Features
-- **User Authentication:** Sign up and log in with email and password.
-- **Timetable Creation:** Add and edit courses with relevant details.
-- **Schedule Viewing:** Display a weekly timetable based on sample data.
+The **Timetable Scheduler** is a web-based application that allows users to create and view academic timetables efficiently. Users can sign up, log in, and generate conflict-free timetables.
 
 ## File Structure
 
@@ -21,22 +16,13 @@ The **Timetable Scheduler** is a web-based application that allows users to crea
 
 ### `create-timetable.html`
 - Interface to add and modify courses.
-- Inputs for course code, instructor, and maximum student capacity per department.
+- Inputs for course code(that contains information like department and semester), instructor, and maximum student capacity per department.
 
 ### `view-schedule.html`
 - Displays a sample weekly timetable.
-- Showcases how class schedules appear for a department.
-
-## How to Use
-1. Open `index.html` in a browser.
-2. Sign up or log in to access features.
-3. Use **Create Timetable** to add course details.
-4. Navigate to **View Schedule** to see the generated timetable.
+- Showcases how weekly class schedules appear.
 
 ## Technologies Used
 - HTML
-- CSS
-- JavaScript
+- CSS (internal)
 
-## License
-This project is open-source and available for modification and distribution.
