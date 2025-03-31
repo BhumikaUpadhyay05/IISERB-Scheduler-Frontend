@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | IISERB Timetable Scheduler</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Arial", sans-serif;
+      }
+
+      body {
+        background-color: #030e3d;
+        color: #ffffff;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .logo-container {
+        margin-top: -50px;
+        margin-bottom: 0px;
+        text-align: center;
+      }
+
+      .logo-container img {
+        max-width: 600px; 
+        height: auto;
+      }
+
+      .card {
+        background: rgba(53, 62, 129, 0.8);
+        border: 1px solid #8f8fdb;
+        backdrop-filter: blur(11px);
+        border-radius: 15px;
+        padding: 40px;
+        width: 400px;
+        max-width: 90%;
+      }
+
+      h2 {
+        font-size: 2rem;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 30px;
+        font-weight: 600;
+      }
+
+      .input_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+        border: 1px solid #8f8fdb;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        padding: 0 15px;
+      }
+
+      .input_container input {
+        width: 100%;
+        padding: 12px 15px;
+        border: none;
+        background: transparent;
+        color: #ffffff;
+        font-size: 1rem;
+      }
+
+      input::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+      }
+
+      .input_container:focus-within {
+        border-color: #96d1d2;
+        box-shadow: 0 0 0 2px rgba(150, 209, 210, 0.3);
+      }
+
+      .input_container i {
+        color: #8f8fdb;
+        font-size: 1.2rem;
+      }
+
+      .btn {
+        padding: 14px 35px;
+        border-radius: 25px;
+        font-weight: bold;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        font-size: 1rem;
+        cursor: pointer;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        border: none;
+      }
+
+      .btn-primary {
+        background-color: #8f8fdb;
+        color: white;
+        margin-top: 20px;
+      }
+
+      .btn-primary:hover {
+        background-color: #7a7ac2;
+        transform: translateY(-2px);
+      }
+
+      .add_on {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.9rem;
+        margin-top: 15px;
+        color: rgba(255, 255, 255, 0.8);
+      }
+
+      .add_on a {
+        color: #96d1d2;
+        text-decoration: none;
+      }
+
+      .add_on a:hover {
+        text-decoration: underline;
+      }
+
+      input[type="checkbox"] {
+        margin-right: 8px;
+      }
+
+      input:focus {
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Logo placed ABOVE the card -->
+    <div class="logo-container">
+      <img src="image copy.png" alt="IISERB Logo" />
+    </div>
+
+    <div class="card">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <div class="input_container">
+          <input type="email" placeholder="Institutional Email" required />
+          <i class="bx bx-envelope"></i>
+        </div>
+        <div class="input_container">
+          <input type="password" placeholder="Password" required />
+          <i class="bx bx-lock-alt"></i>
+        </div>
+        <div class="add_on">
+          <label> <input type="checkbox" /> Remember me </label>
+          <a href="#">Forgot Password?</a>
+        </div>
+        <button class="btn btn-primary" type="submit">Login</button>
+      </form>
+    </div>
+
+    <script>
+      document
+        .getElementById("loginForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          window.location.href = "index.html";
+        });
+    </script>
+  </body>
+</html>
