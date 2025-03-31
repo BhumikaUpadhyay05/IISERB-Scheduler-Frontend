@@ -22,7 +22,7 @@ The **Timetable Scheduler** is a web-based application that allows users to crea
 - Displays a sample weekly timetable.
 - Showcases how weekly class schedules appear.
 
-## Technologies Used
+## Languages Used
 - HTML
 - CSS (internal)
 
